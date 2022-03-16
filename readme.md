@@ -17,6 +17,9 @@ Realitza totes les captures necessàries per a indicar que has realitzat la tasc
 ## 1. Modifica la classe `Calculadora.java`
 
 * Reanomena el paquet `ed.arturo` a `ed.<elteunom>`
+>Para ello simplemente hacemos click derecho sobre el paquete y seleccionamos "Refactor" de ahi seleccionamos "Rename" y le cambiamos el nombre al nuevo
+
+![Refactor Options Image](media/1.png)
 
 ## 2. **Documenta** el codi de la classe `Calculadora` usant comentaris `JavaDoc`:
 

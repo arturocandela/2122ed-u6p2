@@ -19,7 +19,7 @@ Realitza totes les captures necessàries per a indicar que has realitzat la tasc
 * Reanomena el paquet `ed.arturo` a `ed.<elteunom>`
 >Para ello simplemente hacemos click derecho sobre el paquete y seleccionamos "Refactor" de ahi seleccionamos "Rename" y le cambiamos el nombre al nuevo
 
-![Refactor Options Image](media/1.png)
+![Refactor Options Image](media/1.JPG)
 
 ## 2. **Documenta** el codi de la classe `Calculadora` usant comentaris `JavaDoc`:
 
@@ -42,6 +42,10 @@ Realitza totes les captures necessàries per a indicar que has realitzat la tasc
 * Fes una captura en la vista **Package Explorer** del directori **doc** resultant
 
 > Revisa si la documentació s'ha afegit correctament a git, en cas contrari, revisa el fixter .gitignore. 
+
+![Refactor Options Image](media/2.JPG)
+
+![Refactor Options Image](media/2.1.JPG)
 
 ## 4. Fes una captura del **codi font** documentat resultant de la classe `Calculadora`
 

@@ -54,4 +54,63 @@ public class Calculadora {
 		return a/b;
 	}
 	
+	/**
+	 * Metodo que devuelve un numero elevado n numero de veces 
+	 * @param a numero a elevar
+	 * @param n numero de veces a elevar
+	 * @return t (resultado de la elevacion)
+	 */
+	public int oper1 (int a, int n) {
+		int t = 1;
+		for (int i = 0; i<n; i++) {
+			t = t * a;
+		}
+		return t;
+	}
+	
+	
+	/**
+	 * Dice si un numero en par
+	 * @param a numero a comprobar
+	 * @return Resultado de la comprobacion
+	 */
+	public boolean esPar ( int a ){
+	    boolean r;
+
+	    if ( a % 2 == 0) {
+	        r = true;
+	    } else {
+	        r = false;
+	    }
+
+	    return r;
+
+	}
+	
+	/**
+	 * Recoge en forma de cadena todos los restos de las operaciones
+	 * <p>
+	 * Divide un numero entre dos, y concatena los restos en una String
+	 * @param a numero con el que se trabajara
+	 * @return r String de restos
+	 */
+	public String obtenerStringRestos(int a){
+
+	    String r = "";
+	    int v = a;
+	    int v1;
+
+	    while ( v > 0) {
+
+	        v1 = v % 2;
+
+	        r = v1 + r;
+
+	        v = v / 2;
+	    }
+	    return r;
+
+	}
 }
+
+

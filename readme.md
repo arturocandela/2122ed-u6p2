@@ -51,9 +51,20 @@ Realitza totes les captures necessàries per a indicar que has realitzat la tasc
 
 ( En aquest cas, es possible que no siga necessari un commit)
 
+
+![Refactor Options Image](media/4.JPG)
+
+![Refactor Options Image](media/4.1.JPG)
+
 ## 5. Mostra el **resultat** de la documentació: 
 
 * Mostra el fitxer ***index.html*** en el **Navegador** integrat a **Eclipse** i mostra captures de **TOT** el seu contingut. Fixa't en la correspondència entre les descripcions i tags de les pàgines web ( *html*) generades.
+
+![Refactor Options Image](media/5.JPG)
+![Refactor Options Image](media/5.1.JPG)
+![Refactor Options Image](media/5.2.JPG)
+![Refactor Options Image](media/5.3.JPG)
+![Refactor Options Image](media/5.4.JPG)
 
 ## 6. Afegeix 3 **nous mètodes** a la classe calculadora
 

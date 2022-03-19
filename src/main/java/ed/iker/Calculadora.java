@@ -48,52 +48,74 @@ public class Calculadora {
 		return a/b;
 	}
 	
-	public int oper1 ( int a , int n ){
+	/**
+	 * Multiplica el numero de vegades que li pases per argument,
+	 * el numero pasat per argument
+	 * @param numero numero que va a multiplicarse
+	 * @param numeroVegades numero vegades
+	 * @throws java.util.NoSuchElementException llança error si aquest no 
+	 * te elements passats per argument
+	 * @return numero multiplicat per numeroVegades
+	 */
+	public int multiplicador ( int numero , int numeroVegades ){
 
 	    int t = 1;
 
-	    for ( int i = 0; i < n ; i++ ){
-	        t = t * a;
+	    for ( int i = 0; i < numeroVegades ; i++ ){
+	        t = t * numero;
 	    }
 
 	    return t; 
 
 	}
+	/**
+	 * Este metodo calcula mediante una division simple si el numero es par
+	 * @param numero entero
+	 * @throws java.util.NoSuchElementException llança error si aquest no 
+	 * te elements passats per argument
+	 * @return true si el numero es par o false si el numero no es par
+	 */
 
-	public boolean oper2 ( int a ){
+	public boolean esPar ( int numero ){
 
-	    boolean r;
+	    boolean isPar;
 
-	    if ( a % 2 == 0) {
-	        r = true;
+	    if ( numero % 2 == 0) {
+	        isPar = true;
 	    } else {
-	        r = false;
+	        isPar = false;
 	    }
 
-	    return r;
+	    return isPar;
 
 	}
 
+	/**
+	 * Aquest metode relitza una factoritzacio de el numero passat com a parametre. 
+	 * Ex numero = 5, returns 101
+	 * @param numero entero
+	 * @return Retorna la unio dels numeros de la seua propia factorizacio, en formato String
+	 * @throws java.util.NoSuchElementException llança error si aquest no 
+	 * te elements passats per argument
+	 */
 	
-	/*
-	public String oper3(int a){
+	public String factoritzacioDeUnNumero(int numero){
 
-	    String r = "";
-	    int v = a;
-	    int v1;
+	    String cadena = "";
+	    int variable = numero;
+	    int variable2;
 
-	    while ( v > 0) {
+	    while ( variable > 0) {
 
-	        v1 = v % 2;
+	        variable2 = variable % 2;
 
-	        r = v1 + r;
+	        cadena = variable2 + cadena;
 
-	        v = v / 2;
+	        variable = variable / 2;
 
 
 	    }
-
+	    return cadena;
 	}
-	*/
 	
 }

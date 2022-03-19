@@ -60,4 +60,64 @@ public class Calculadora {
 		return a/b;
 	}
 	
+	/**
+	 * 
+	 * @param number Integer number
+	 * @param Integer numberOfTimesMulyplicated
+	 * @return Power of number elevated to numberOfTimes
+	 * returns the power of the first number enter elevated to the second number entered
+	 */
+	public int oper1 ( int number , int numberOfTimes ){
+
+	    int total = 1;
+
+	    for ( int i = 0; i < numberOfTimes ; i++ ){
+	        total = total * number;
+	    }
+	    return total; 
+
+	}
+
+	/**
+	 * 
+	 * @param number Integer that will be check if is pair
+	 * @return boolean True if the number is pair, and false if it is not
+	 * Returns true if the number is pair and false if it is not
+	 */
+	public boolean oper2 ( int number ){
+
+	    boolean isPair;
+
+	    if ( number % 2 == 0) {
+	        isPair = true;
+	    } else {
+	        isPair = false;
+	    }
+
+	    return isPair;
+	}
+	
+	/**
+	 * 
+	 * @param number Integer number which will obtain the list of remainders
+	 * @return String List of all remainders
+	 */
+	public String oper3(int number){
+
+	    String restList = "";
+	    int numberToOperate = number;
+	    int rest;
+
+	    while ( numberToOperate > 0) {
+
+	        rest = numberToOperate % 2;
+
+	        restList = rest + restList;
+
+	        numberToOperate = numberToOperate / 2;
+
+	    }
+	    return restList;
+
+	}
 }

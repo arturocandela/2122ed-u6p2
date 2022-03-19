@@ -11,6 +11,10 @@ package ed.sergi;
  * @since 1.9, juny de 2019
  *
  */
+/**
+ * @author sergi
+ *
+ */
 public class Calculadora {
 	
 	/**
@@ -50,6 +54,11 @@ public class Calculadora {
 	 * @param b divisor
 	 * @return Retorna el resultat de a / b
 	 * @exception ArithmeticException Si el divisor es 0 no es podra fer la divisio
+	 */
+	/**
+	 * @param a
+	 * @param b
+	 * @return
 	 */
 	public int diveix(int a, int b) {
 		return a/b;

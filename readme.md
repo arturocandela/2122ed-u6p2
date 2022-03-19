@@ -35,6 +35,8 @@ Realitza totes les captures necessàries per a indicar que has realitzat la tasc
   * Valor que **retorna** amb una descripció més indicada.
   * Si el métode llança una **exepció** ( error en execució), posa el tipus d'*exepció* i la descripció de la mateixa ( per exemple, el cas de la divisió per zero)
 
+> Los comentarios de cada metodo con el de la clase se pueden ver en la actividad 6 mas abajo.
+
 ## 3. **Genera** des d'**eclipse** la documentació **JavaDoc** del projecte.
 
 * Arregla els possibles **errors/warnings** que isquen. Fixa't en la descripció de l'error i torna a generar la documentació fins que vaja bé.

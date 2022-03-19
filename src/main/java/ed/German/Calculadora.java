@@ -52,4 +52,49 @@ public class Calculadora {
 		return a/b;
 	}
 	
+	public int calcularPotencia ( int base , int exponent ){
+
+	    int total = 1;
+
+	    for ( int i = 0; i < exponent ; i++ ){
+	        total = total * base;
+	    }
+
+	    return total; 
+
+	}
+
+	public boolean esUnNumeroParell ( int numero ){
+
+	    boolean esParell;
+
+	    if ( numero % 2 == 0) {
+	        esParell = true;
+	    } else {
+	        esParell = false;
+	    }
+
+	    return esParell;
+
+	}
+
+	public String passarABinari(int numAConverir){
+
+	    String cadenaBinari = "";
+	    int nouNumero = numAConverir;
+	    int comptador;
+
+	    while ( nouNumero > 0) {
+
+	        comptador = nouNumero % 2;
+
+	        cadenaBinari = comptador + cadenaBinari;
+
+	        nouNumero = nouNumero / 2;
+
+	        
+	    }
+	    return cadenaBinari;
+	}
+	
 }

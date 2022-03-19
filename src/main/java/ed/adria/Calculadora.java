@@ -63,7 +63,7 @@ public class Calculadora {
 	/**
 	 * 
 	 * @param number Integer number
-	 * @param Integer numberOfTimesMulyplicated
+	 * @param numberOfTimes Integer
 	 * @return Power of number elevated to numberOfTimes
 	 * returns the power of the first number enter elevated to the second number entered
 	 */
@@ -100,8 +100,11 @@ public class Calculadora {
 	/**
 	 * 
 	 * @param number Integer number which will obtain the list of remainders
-	 * @return String List of all remainders
+	 * @return restList String List of all remainders when the number introduces is divided between two
+	 * 
+	 * Obtains a list in a String with all the remainders on the number when you diveded between two
 	 */
+	
 	public String oper3(int number){
 
 	    String restList = "";

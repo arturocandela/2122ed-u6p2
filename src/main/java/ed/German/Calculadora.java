@@ -52,6 +52,12 @@ public class Calculadora {
 		return a/b;
 	}
 	
+	/**
+	 * Calcula la potència de 2 números.
+	 * @param base número que representa la base.
+	 * @param exponent número de vegades multiplicada la base.
+	 * @return la potència total.
+	 */
 	public int calcularPotencia ( int base , int exponent ){
 
 	    int total = 1;
@@ -64,6 +70,11 @@ public class Calculadora {
 
 	}
 
+	/**
+	 * Reb 1 número i indica si es parell o no.
+	 * @param numero valor a calcular si es parell.
+	 * @return retorna un booleá dient si es parell el número.
+	 */
 	public boolean esUnNumeroParell ( int numero ){
 
 	    boolean esParell;
@@ -78,6 +89,11 @@ public class Calculadora {
 
 	}
 
+	/**
+	 * Reb un número enter per a converti-lo a binari.
+	 * @param numAConvertir número manat per a convertir.
+	 * @return retorna el número en binari en forma de cadena.
+	 */
 	public String passarABinari(int numAConverir){
 
 	    String cadenaBinari = "";

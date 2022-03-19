@@ -125,5 +125,14 @@ public String oper3(int a){
   * **codi documentat** ( fomateja el codi si hi cal)
   * directori doc i
   * la documentació resultant en el navegador
+![Refactor Options Image](media/6.JPG)
+![Refactor Options Image](media/6.1.JPG)
+![Refactor Options Image](media/6.2.JPG)
+![Refactor Options Image](media/6.3.JPG)
+![Refactor Options Image](media/6.4.JPG)
+![Refactor Options Image](media/6.5.JPG)
+![Refactor Options Image](media/6.6.JPG)
+![Refactor Options Image](media/6.7.JPG)
+![Refactor Options Image](media/6.8.JPG)
 
 > Per a fer els commits a git, pot ser una bona estratègia realitzar-los per parts, es a dir, primer el codi, després el codi formatejat, després el codi documentat, etc.

@@ -67,35 +67,51 @@ public class Calculadora {
 		return a/b;
 	}
 	
-	public int oper1 ( int a , int n ){
+	/**
+	 * 
+	 * @param base
+	 * @param exponente
+	 * @return
+	 */
+	public int potencia ( int base , int exponente ){
 
-	    int t = 1;
+	    int resultado = 1;
 
-	    for ( int i = 0; i < n ; i++ ){
-	        t = t * a;
+	    for ( int i = 0; i < exponente ; i++ ){
+	        resultado = resultado * base;
 	    }
 
-	    return t; 
+	    return resultado; 
 
 	}
 
-	public boolean oper2 ( int a ){
+	/**
+	 * 
+	 * @param a
+	 * @return
+	 */
+	public boolean esPar ( int a ){
 
-	    boolean r;
+	    boolean resultado;
 
 	    if ( a % 2 == 0) {
-	        r = true;
+	        resultado = true;
 	    } else {
-	        r = false;
+	        resultado = false;
 	    }
 
-	    return r;
+	    return resultado;
 
 	}
 
-	public String oper3(int a){
+	/**
+	 * 
+	 * @param a
+	 * @return
+	 */
+	public String convierteABinario(int a){
 
-	    String r = "";
+	    String numBinario = "";
 	    int v = a;
 	    int v1;
 
@@ -103,12 +119,13 @@ public class Calculadora {
 
 	        v1 = v % 2;
 
-	        r = v1 + r;
+	        numBinario = v1 + numBinario;
 
 	        v = v / 2;
 
 
 	    }
+	    return numBinario;
 
 	}
 	

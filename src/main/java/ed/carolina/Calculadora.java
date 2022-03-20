@@ -68,10 +68,12 @@ public class Calculadora {
 	}
 	
 	/**
+	 * Obtiene el la potencia de un número elevado a otro, que significa que la base se multiplica por si misma tantas
+	 * veces como indique el exponente.
 	 * 
-	 * @param base
-	 * @param exponente
-	 * @return
+	 * @param base El número a multiplicar por si mismo.
+	 * @param exponente Las veces que la base se multiplica por si misma.
+	 * @return El resultado obtenido de la potencia.
 	 */
 	public int potencia ( int base , int exponente ){
 
@@ -86,9 +88,11 @@ public class Calculadora {
 	}
 
 	/**
+	 * Indica si un número entero es par o no, devolviendo un valor boolean que será true si el resto de dividir dicho número
+	 * entre 2 es 0 y por lo tanto es par, y false si el resultado es distinto a 0 y por lo tanto es impar.
 	 * 
-	 * @param a
-	 * @return
+	 * @param a El número entero a analizar si es par o no.
+	 * @return True si es par, False si es impar.
 	 */
 	public boolean esPar ( int a ){
 
@@ -105,9 +109,10 @@ public class Calculadora {
 	}
 
 	/**
+	 * Convierte un número entero a su versión en binario, devolviéndolo en forma de String.
 	 * 
-	 * @param a
-	 * @return
+	 * @param a El número entero a convertir en binario.
+	 * @return El String resultante con el número a en binario.
 	 */
 	public String convierteABinario(int a){
 

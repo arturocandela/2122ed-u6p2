@@ -64,20 +64,20 @@ public class Calculadora {
 	
 	
 	/**
-	 * 
-	 * @param a
-	 * @param n
-	 * @return
+	 * Realiza la operación matemática de elevar base a exponente.
+	 * @param base de la operación base ^ exponente
+	 * @param exponente de la operación base ^ exponente
+	 * @return el resultado de la operación base ^ exponente
 	 */
-	public int oper1 ( int a , int n ){
+	public int elevar ( int base , int exponente ){
 
-	    int t = 1;
+	    int resultado = 1;
 
-	    for ( int i = 0; i < n ; i++ ){
-	        t = t * a;
+	    for ( int i = 0; i < exponente ; i++ ){
+	        resultado = resultado * base;
 	    }
 
-	    return t; 
+	    return resultado; 
 
 	}
 
@@ -111,6 +111,7 @@ public class Calculadora {
 
 
 	    }
+	    return r;
 
 	}
 	

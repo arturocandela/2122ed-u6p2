@@ -47,5 +47,64 @@ public class Calculadora {
 	public int diveix(int a, int b) {
 		return a/b;
 	}
+	/**
+	 * Multiplica el número pasado como argumento por todos los números desde 1 hasta otro introducido
+	 * @param a numero para multiplicar
+	 * @param b limite hasta el que multiplicar
+	 * @return el resultado de la suma de todas las multiplicaciones
+	 */
+	public int productoFactorial ( int a , int n ){
+
+	    int t = 1;
+
+	    for ( int i = 0; i < n ; i++ ){
+	        t = t * a;
+	    }
+
+	    return t; 
+
+	}
+	/**
+	 * Obtener si un número es par
+	 * @param a numero a comprobar
+	 * @return true si a es par y false sino
+	 */
+	public boolean esPar ( int a ){
+
+	    boolean r;
+
+	    if ( a % 2 == 0) {
+	        r = true;
+	    } else {
+	        r = false;
+	    }
+
+	    return r;
+
+	}
+	/**
+	 * divide el número entre 2 y guarda el resto en un String hasta que el número sea 0
+	 * @param a numero a utilizar
+	 * @return una cadena con el resto de las divisiones
+	 */
+	public String restoDivisiones (int a){
+
+	    String r = "";
+	    int v = a;
+	    int v1;
+
+	    while ( v > 0) {
+
+	        v1 = v % 2;
+
+	        r = v1 + r;
+
+	        v = v / 2;
+
+
+	    }
+	    
+	    return r;
+	}
 	
 }

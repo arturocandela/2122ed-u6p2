@@ -34,11 +34,24 @@ Resultado tras refactorizar el paquete:
     * L'**autor** ( posa el teu nom complet )
     * La **versió** actual de la classe ( 2.5 )
     * Que está **disponible des de** la versió 1.9, juny de 2019.
+    ![Documentacion escrita como comentario para Clase Calculadora](/resources/images/2-2a.png)
 * Per a cadascun dels **mètodes** documenta:
   * **Descripció** explicant que fa el mètode.
   * **Paràmetres/s** amb la descripció més indicada.
   * Valor que **retorna** amb una descripció més indicada.
   * Si el métode llança una **exepció** ( error en execució), posa el tipus d'*exepció* i la descripció de la mateixa ( per exemple, el cas de la divisió per zero)
+
+  Método suma:
+  ![Documentacion escrita como comentario para el metodo suma](/resources/images/2-2b.png)
+
+  Método resta:
+  ![Documentacion escrita como comentario para el metodo resta](/resources/images/2-2c.png)
+
+  Método multiplicacion:
+  ![Documentacion escrita como comentario para el metodo multiplicacion](/resources/images/2-2d.png)
+
+  Método division:
+  ![Documentacion escrita como comentario para el metodo division](/resources/images/2-2e.png)
 
 ## 3. **Genera** des d'**eclipse** la documentació **JavaDoc** del projecte.
 

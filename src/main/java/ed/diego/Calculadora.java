@@ -9,9 +9,9 @@ package ed.diego;
 public class Calculadora {
 	
 	/**
-	 * Suma el primer número con el segundo
-	 * @param a primero número
-	 * @param b segundo número
+	 * Suma el primer numero con el segundo
+	 * @param a primero numero
+	 * @param b segundo numero
 	 * @return el resultado de la suma
 	 * @exception java.lang.ArithmeticException Salta cuando hay un error de calculo
 	 */

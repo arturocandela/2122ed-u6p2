@@ -109,27 +109,27 @@ public class Calculadora {
 	/**
 	 * Divideix el numero introduït per dos fins que aquest done 0
 	 * 
-	 * @param a (
-	 * @return
+	 * @param numeroADividir (el numero que volem que es dividisca per dos)
+	 * @return (retorna el resultat en format de string del resultats del numero introduït)
 	 */
 	
-	public String divisorPerDos(int a){
+	public String divisorPerDos(int numeroADividir){
 
-	    String r = "";
-	    int v = a;
-	    int v1;
+	    String resultat = "";
+	    int numeroIntroduit = numeroADividir;
+	    int auxiliar;
 
-	    while ( v > 0) {
+	    while ( numeroIntroduit > 0) {
 
-	        v1 = v % 2;
+	        auxiliar = numeroIntroduit % 2;
 
-	        r = v1 + r;
+	        resultat = auxiliar + resultat;
 
-	        v = v / 2;
+	        numeroIntroduit = numeroIntroduit / 2;
 
 	    }
 	    
-	    return r;
+	    return resultat;
 	}
 	
 }

@@ -168,9 +168,85 @@ public String oper3(int a){
 * **Canvia** el nom dels mètodes i les seues variables per un nom més representatiu d'acord amb el seu funcionament (**Usa Refactoring -> Rename**)
 * **Documenta** els nous mètodes adecuadament amb comentaris *JavaDoc*.
 * **Genera** la documentació en *JavaDoc*
+![GeneracionJavadoc](/resources/images/2-6_GeneradoJavadoc.png)
 * Mostra **captures** de:
   * **codi documentat** ( fomateja el codi si hi cal)
+
+  ```java
+	/**
+	 * Realiza la operación matemática de elevar base a exponente.
+	 * @param base de la operación base ^ exponente
+	 * @param exponente de la operación base ^ exponente
+	 * @return el resultado de la operación base ^ exponente
+	 */
+	public int elevar ( int base , int exponente ){
+
+	    int resultado = 1;
+
+	    for ( int i = 0; i < exponente ; i++ ){
+	        resultado = resultado * base;
+	    }
+
+	    return resultado; 
+
+	}
+
+	/**
+	 * Devuelve como resultado un booleano indicando si el numero introducido es par
+	 * @param numero que se quiere saber si es par
+	 * @return true si numero es par, false si numero es impar
+	 */
+	public boolean esPar ( int numero ){
+
+	    boolean esPar;
+
+	    if ( numero % 2 == 0) {
+	        esPar = true;
+	    } else {
+	        esPar = false;
+	    }
+
+	    return esPar;
+
+	}
+
+	/**
+	 * Pasa a binario un numero en base decimal pasado como argumento
+	 * @param numero en base decimal
+	 * @return Cadena con el número pasado como argumento convertido en binario
+	 */
+	public String pasarABinario(int numero){
+
+	    String resultadoCadena = "";
+	    int divisor = numero;
+	    int restoDivision;
+
+	    while ( divisor > 0) {
+
+	        restoDivision = divisor % 2;
+
+	        resultadoCadena = restoDivision + resultadoCadena;
+
+	        divisor = divisor / 2;
+
+
+	    }
+	    return resultadoCadena;
+
+	}
+  ```
   * directori doc i
+
+  ![Directorio Javadoc](/resources/images/2-6_DirectorioJavadoc.png)
+
   * la documentació resultant en el navegador
+  
+  Resumen de los métodos
+  ![Resumen metodos](/resources/images/2-6-ResumenMetodos.png)
+  
+  Descripción detallada de los métodos
+  ![Descripcion elevar](/resources/images/2-6-1.png)
+  ![Descripcion esPar](/resources/images/2-6-2.png)
+  ![Descripcion pasarABinario](/resources/images/2-6-3.png)
 
 > Per a fer els commits a git, pot ser una bona estratègia realitzar-los per parts, es a dir, primer el codi, després el codi formatejat, després el codi documentat, etc.

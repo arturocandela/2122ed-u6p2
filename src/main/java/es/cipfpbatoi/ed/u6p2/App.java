@@ -8,7 +8,7 @@ public class App
 {
 /**
  * Función main de prueba con un Hola Mundo!
- * @param args
+ * @param args argumento de main
  */
     public static void main( String[] args )
     {

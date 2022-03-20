@@ -81,17 +81,22 @@ public class Calculadora {
 
 	}
 
-	public boolean oper2 ( int a ){
+	/**
+	 * Devuelve como resultado un booleano indicando si el numero introducido es par
+	 * @param numero que se quiere saber si es par
+	 * @return true si numero es par, false si numero es impar
+	 */
+	public boolean esPar ( int numero ){
 
-	    boolean r;
+	    boolean esPar;
 
-	    if ( a % 2 == 0) {
-	        r = true;
+	    if ( numero % 2 == 0) {
+	        esPar = true;
 	    } else {
-	        r = false;
+	        esPar = false;
 	    }
 
-	    return r;
+	    return esPar;
 
 	}
 

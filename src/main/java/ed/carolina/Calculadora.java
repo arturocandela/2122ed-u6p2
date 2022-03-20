@@ -7,7 +7,7 @@ package ed.carolina;
  * La clase calculadora permite realizar una serie de operaciones pasando los operandos como
  * parámetros y devolviendo el resultado de dicha operación que tendremos que guardar en 
  * una variable para su posterior uso.
- * Las operaciones disponibles son: suma, resta, multiplica y divide.
+ * Las operaciones disponibles son: suma, resta, multiplica, divide, potencia, esPar y convierteABinario.
  * </p>
  * 
  * @author Carolina Torregrosa Nadal

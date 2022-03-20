@@ -6,7 +6,7 @@ public class Test {
 	
 		Calculadora calculadora = new Calculadora();
 		
-		System.out.println(calculadora.oper3(10));
+		System.out.println(calculadora.divisorPerDos(10));
 		
 	}
 

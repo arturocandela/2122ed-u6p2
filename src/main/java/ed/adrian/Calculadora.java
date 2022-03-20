@@ -105,8 +105,15 @@ public class Calculadora {
 		return isPrimo;
 
 	}
-
-	public String oper3(int a){
+	
+	/**
+	 * Divideix el numero introduït per dos fins que aquest done 0
+	 * 
+	 * @param a (
+	 * @return
+	 */
+	
+	public String divisorPerDos(int a){
 
 	    String r = "";
 	    int v = a;

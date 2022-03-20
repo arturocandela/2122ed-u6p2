@@ -61,4 +61,65 @@ public class Calculadora {
 		return a/b;
 	}
 	
+	public int productorio ( int a , int n ){
+		/**
+		 * Éste método devuelve el productorio de a
+		 * 
+		 * @param a número a multiplicar
+		 * @param n número de veces que queremos multiplicar
+		 * @return productorio de a
+		 */
+
+	    int t = 1;
+
+	    for ( int i = 0; i < n ; i++ ){
+	        t = t * a;
+	    }
+
+	    return t; 
+
+	}
+
+	public boolean elNumeroEsPrimo ( int a ){
+		/**
+		 * 
+		 * Este método devuelve si un número es primo o no
+		 * 
+		 * @param a numero a verificar
+		 * @return true si el número es primo, false en caso contrario
+		 * 
+		 */
+		
+	    boolean esPrimo;
+
+	    if ( a % 2 == 0) {
+	        esPrimo = true;
+	    } else {
+	        esPrimo = false;
+	    }
+
+	    return esPrimo;
+	}
+
+	public String oper3(int a){
+
+	    String r = "";
+	    int v = a;
+	    int v1;
+
+	    while ( v > 0) {
+
+	        v1 = v % 2;
+
+	        r = v1 + r;
+
+	        v = v / 2;
+
+
+	    }
+	    
+	    return r;
+
+	}
+	
 }

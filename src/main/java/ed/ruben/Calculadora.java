@@ -100,23 +100,28 @@ public class Calculadora {
 
 	}
 
-	public String oper3(int a){
+	/**
+	 * Pasa a binario un numero en base decimal pasado como argumento
+	 * @param numero en base decimal
+	 * @return Cadena con el número pasado como argumento convertido en binario
+	 */
+	public String pasarABinario(int numero){
 
-	    String r = "";
-	    int v = a;
-	    int v1;
+	    String resultadoCadena = "";
+	    int divisor = numero;
+	    int restoDivision;
 
-	    while ( v > 0) {
+	    while ( divisor > 0) {
 
-	        v1 = v % 2;
+	        restoDivision = divisor % 2;
 
-	        r = v1 + r;
+	        resultadoCadena = restoDivision + resultadoCadena;
 
-	        v = v / 2;
+	        divisor = divisor / 2;
 
 
 	    }
-	    return r;
+	    return resultadoCadena;
 
 	}
 	

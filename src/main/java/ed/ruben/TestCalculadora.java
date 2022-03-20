@@ -5,7 +5,9 @@ public class TestCalculadora {
 	public static void main(String[] args) {
 		Calculadora calculadora = new Calculadora();
 		
-		System.out.println(calculadora.elevar(2, 8));
+		for(int i = 0;  i < 32; i++) {
+			System.out.println(i + " ->" + calculadora.pasarABinario(i));
+		}
 	}
 
 }

@@ -57,7 +57,9 @@ Resultado tras refactorizar el paquete:
 
 * Arregla els possibles **errors/warnings** que isquen. Fixa't en la descripció de l'error i torna a generar la documentació fins que vaja bé.
 * Fes una captura de la **Consola**: ha de veure's tot el procés de generació complet.
+ ![Proceso generacion documento javadoc](/resources/images/2-3c.png)
 * Fes una captura en la vista **Package Explorer** del directori **doc** resultant
+![Directorio doc resultante](/resources/images/2-3d.png)
 
 > Revisa si la documentació s'ha afegit correctament a git, en cas contrari, revisa el fixter .gitignore. 
 

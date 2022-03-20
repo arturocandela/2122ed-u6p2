@@ -52,35 +52,51 @@ public class Calculadora {
 		return a/b;
 	}
 	
-	public int oper1 ( int a , int n ){
+	/**
+	 * Multiplica un numero por todos los que haya desde 0 hasta llegar a otro numero introducido
+	 * @param a numero a multiplicar
+	 * @param n numero hasta el que multiplicar
+	 * @return el resultado de todas las multiplicaciones
+	 */
+	public int productoFactorial ( int a , int n ){
 
-	    int t = 1;
+	    int resultado = 1;
 
 	    for ( int i = 0; i < n ; i++ ){
-	        t = t * a;
+	        resultado = resultado * a;
 	    }
 
-	    return t; 
+	    return resultado; 
 
 	}
+	
+	/**
+	 * Te dice si un numero es par
+	 * @param a parametro a analizar
+	 * @return true si es par, false si es impar
+	 */
+	public boolean esPar ( int a ){
 
-	public boolean oper2 ( int a ){
-
-	    boolean r;
+	    boolean esPar;
 
 	    if ( a % 2 == 0) {
-	        r = true;
+	        esPar = true;
 	    } else {
-	        r = false;
+	        esPar = false;
 	    }
 
-	    return r;
+	    return esPar;
 
 	}
+	
+	/**
+	 * Realiza divisiones hasta que el numero sea 0
+	 * @param a numero a dividir
+	 * @return el resultado de todas las divisiones
+	 */
+	public String dividirHastaCero(int a){
 
-	public String oper3(int a){
-
-	    String r = "";
+	    String resultado = "";
 	    int v = a;
 	    int v1;
 
@@ -88,13 +104,13 @@ public class Calculadora {
 
 	        v1 = v % 2;
 
-	        r = v1 + r;
+	        resultado = v1 + resultado;
 
 	        v = v / 2;
 
 
 	    }
-	    return r;
+	    return resultado;
 	}
 	
 }

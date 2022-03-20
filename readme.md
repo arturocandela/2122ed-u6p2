@@ -73,6 +73,46 @@ Clase Calculadora:
 
 * Mostra el fitxer ***index.html*** en el **Navegador** integrat a **Eclipse** i mostra captures de **TOT** el seu contingut. Fixa't en la correspondència entre les descripcions i tags de les pàgines web ( *html*) generades.
 
+### Documentación javadoc:
+
+Indice
+![Indice javadoc](/resources/images/2-4_Index.png)
+
+Descripción de la clase Calculadora
+![Calculadora descripcion](/resources/images/2-4_CalculadoraResumen.png)
+
+
+Resumen del constructor
+![Calculadora contructor](/resources/images/2-4_CalculadoraConstructor.png)
+
+Resumen de los métodos propios
+![Calculadora metodos](/resources/images/2-4_CalculadoraMetodos.png)
+
+Resumen de los métodos heredados
+![Calculadora metodos heredados](/resources/images/2-4_CalculadoraMetodosHeredados.png)
+
+Descripción del constructor
+![Calculadora contructor descripcion](/resources/images/2-4_CalculadoraConstructorDetalles.png)
+
+
+#### Descripción de los métodos propios
+
+Suma
+![Calculadora metodo suma](/resources/images/2-4_CalculadoraMetodoSuma.png)
+
+Resta
+![Calculadora metodo resta](/resources/images/2-4_CalculadoraMetodoResta.png)
+
+Multiplicación
+![Calculadora metodo multiplicacion](/resources/images/2-4_CalculadoraMetodoMultiplicacion.png)
+
+División
+![Calculadora metodo divison](/resources/images/2-4_CalculadoraMetodoDivision.png)
+
+
+Arbol de clases
+![Arbol de clases](/resources/images/2-4_ArbolClases.png)
+
 ## 6. Afegeix 3 **nous mètodes** a la classe calculadora
 
 ```java

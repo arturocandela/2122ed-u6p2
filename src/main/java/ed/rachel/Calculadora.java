@@ -51,4 +51,58 @@ public class Calculadora {
 		return a/b;
 	}
 	
+	
+	/**
+	 * Calculo de potencia, un entero es elevado a otro entero
+	 * @param base, entero el cual se multiplica
+	 * @param exponente, numero de veces que base se multiplica
+	 * @return entero
+	 */
+	public int potencia(int base , int exponente){
+	    int resultado = 1;
+
+	    for ( int i = 0; i < exponente ; i++ ){
+	        resultado = resultado * base;
+	    }
+
+	    return resultado; 
+	}
+
+	/**
+	 * Se calcula si un numero es par si es divisible entre 2 y resulta 0
+	 * @param a, entero el cual se comprueba si es par
+	 * @return true si es par, false si es impar
+	 */
+	public boolean esPar(int a){
+	    boolean esPar;
+
+	    if ( a % 2 == 0) {
+	        esPar = true;
+	    } else {
+	        esPar = false;
+	    }
+
+	    return esPar;
+	}
+
+	/**
+	 * Sacar los numeros del que tenemos en el atributo
+	 *
+	 * @param a, entero
+	 * @return lista de numeros
+	 */
+	public String getNumeros(int a){
+	    String texto = "";
+	    int copiaNumero = a;
+	    int numPequenyo;
+
+	    while ( copiaNumero > 0) {
+
+	        numPequenyo = copiaNumero % 2;
+	        texto = numPequenyo + texto;
+	        copiaNumero = copiaNumero / 2;
+
+	    }
+	    return texto;
+	}
 }

@@ -18,6 +18,14 @@ Realitza totes les captures necessàries per a indicar que has realitzat la tasc
 
 * Reanomena el paquet `ed.arturo` a `ed.<elteunom>`
 
+Refactorizamos el paquete:
+
+![Renombramos el paquete](/resources/images/2-1a.png)
+
+Resultado tras refactorizar el paquete:
+
+![Resultado de la refactorizacion](/resources/images/2-1b.png)
+
 ## 2. **Documenta** el codi de la classe `Calculadora` usant comentaris `JavaDoc`:
 
 * Per a la **classe**:

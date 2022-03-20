@@ -1,3 +1,5 @@
+
+package ed.carolina;
 /**
  * Clase que permite realizar operaciones matemáticas.
  * 
@@ -12,9 +14,6 @@
  * @version 2.5 (Versión actual de la clase)
  * @since 1.9 Junio 2019 (Versión desde la cual está disponible esta clase)
  */
-
-package ed.carolina;
-
 public class Calculadora {
 	
 	

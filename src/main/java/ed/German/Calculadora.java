@@ -1,15 +1,13 @@
+package ed.German;
 /**
  * Classe Calculadora -> Realitza opeacions matemàtiques
- * 
+ * <p>
  * Aquesta clase té la utilitat de rebre 2 números, i depenent de l'operació sel.leccionada, retornarà
  * el valor corrsponent amb l'operació.
  * @author Germán
  * @version 2.5
- * @since 1.9 juny 2019
+ * @since 1.9, juny 2019
  */
-
-package ed.German;
-
 public class Calculadora {
 	/**
 	 * Reb 2 números per a realitzar la seua suma entre ells.
@@ -43,12 +41,9 @@ public class Calculadora {
 	 * @param a divident.
 	 * @param b divisor.
 	 * @return el quocient de la divisió.
-	 * @throws @Exception ArithmeticException llança la excepció si intentem dividir entre 0.
+	 * @throws ArithmeticException llança la excepció si intentem dividir entre 0.
 	 */
 	public int diveix(int a, int b) throws ArithmeticException{
-		if(b == 0) {
-			throw new ArithmeticException();
-		}
 		return a/b;
 	}
 	
@@ -73,7 +68,7 @@ public class Calculadora {
 	/**
 	 * Reb 1 número i indica si es parell o no.
 	 * @param numero valor a calcular si es parell.
-	 * @return retorna un booleá dient si es parell el número.
+	 * @return retorna un true dient si es parell el número, false si es imparell.
 	 */
 	public boolean esUnNumeroParell ( int numero ){
 

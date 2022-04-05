@@ -2,70 +2,80 @@ package ed.adria;
 
 /**
  * 
- * @author AdriaJ
+ *  This class groups various methods corresponding
+ *  a simple calculator
+ *  <p>
+ *	This class is a part of the project "Calculadora" which is indeed 
+ *	a simple calculator with the basic operations such as: 
+ * <ul>
+ *		<li>Addition (+)</li>
+ *		<li>Substraction (-)</li>
+ *		<li>Multiplication (*)</li>
+ *		<li>Division (/)</li>
+ *		<li>Modulus (%)</li>
+ *		<li>Power (^)</li>
+ * </ul>
+ * 
+ * @author Adrià Jordà Martínez
  * @version 2.5
- * @since 1.2
- *This class groups various methods corresponding
- *a simple calculator
- *
+ * @since 1.5, 2015-06-01
+ * 
  */
 public class Calculadora {
 	/**
+	 * This method adds two numbers
 	 * 
-	 * @param a Integer of first number
-	 * @param b Integer of second number
-	 * @return a+b
-	 * returns the sum of both numbers
+	 * @param a first number
+	 * @param b second number
+	 * @return Integer of the sum of the two numbers
 	 * 
-	 * This class returns the sum of both parameters
-	 * 
-	 * The methods of this calculator are the sum of two numbers,
-	 * the extraction of two numbers, the multiplication of two numbers
-	 * and the division of two numbers
 	 */
-	
 	public int suma(int a, int b) {
 		return a + b;
 	}
+
 	/**
-	 * 
-	 *  @param a Integer of first number
+	 * This method Extracts the second parameter over the first one
+	 *
+	 * @param a Integer of first number
 	 * @param b Integer of second number
-	 * @return a-b
-	 * returns extraction of both numbers 
-	 * entered as parameters
-	 * Extracts the second parameter over the first
+	 * @return extraction of both numbers entered as parameters
+	 * 
 	 */
 	public int resta(int a, int b) {
 		return a - b;
 	}
 	/**
+	 * This method multiplies two numbers
 	 * 
-	 *  @param a Integer of first number
+	 * @param a Integer of first number
 	 * @param b Integer of second number
-	 * @return a*b return the multiplication of both parameters
+	 * @return multiplication of both numbers entered as parameters
 	 */
 	public int multiplica(int a, int b){
 		return a*b;
 	}
 	/**
+	 * This method divides the first parameter by the second
 	 * 
-	 *  @param a Integer of first number
+	 * @param a Integer of first number
 	 * @param b Integer of second number
-	 * @return a/b
-	 * returns the division of the 
-	 * first parameter over the second
+	 * @return returns the division of both parameters
+	 * @throws ArithmeticException if the second parameter is 0
+	 * 
 	 */
+	
 	public int diveix(int a, int b) {
 		return a/b;
 	}
 	
 	/**
+	 * This method calculates the power of the first number enter elevated to the second number entered
 	 * 
 	 * @param number Integer number
 	 * @param numberOfTimes Integer
-	 * @return Power of number elevated to numberOfTimes
-	 * returns the power of the first number enter elevated to the second number entered
+	 * @return power of the first number entered elevated to the second number entered
+	 * 
 	 */
 	public int oper1 ( int number , int numberOfTimes ){
 
@@ -79,6 +89,8 @@ public class Calculadora {
 	}
 
 	/**
+	 * 
+	 * This method calculates the remainder of the first number divided by the second number
 	 * 
 	 * @param number Integer that will be check if is pair
 	 * @return boolean True if the number is pair, and false if it is not

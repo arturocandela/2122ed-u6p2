@@ -9,19 +9,18 @@ package ed.adrian;
  * </p>
  * 
  * @author adrianpascualsilvestre
- * @version 2.5 (versió actual del programa)
- * @since 1.9 (la versió va ser anyadida per primera vegade en juny de 2019)
+ * @version 2.5
+ * @since 1.9, 2019-06
  *
  */
-
 public class Calculadora {
 
 	/**
 	 * Fa una suma entre dos numeros pasats com a parametres
 	 * 
-	 * @param a (un numero per a sumar)
-	 * @param b (altre numero per a sumar)
-	 * @return (la suma del primer element mes el segon element)
+	 * @param a un numero per a sumar
+	 * @param b altre numero per a sumar
+	 * @return la suma del primer element mes el segon element
 	 */
 
 	public int suma(int a, int b) {
@@ -31,9 +30,9 @@ public class Calculadora {
 	/**
 	 * Fa una resta entre dos numeros pasats com a parametres
 	 * 
-	 * @param a (el primer numero per a restar)
-	 * @param b (el segundo numero per a restar)
-	 * @return (retorna la resta del primer element menys el segon element)
+	 * @param a el primer numero per a restar
+	 * @param b el segundo numero per a restar
+	 * @return retorna la resta del primer element menys el segon element
 	 */
 
 	public int resta(int a, int b) {
@@ -43,9 +42,9 @@ public class Calculadora {
 	/**
 	 * Fa una multiplicacio entre dos numeros pasats com a parametres
 	 * 
-	 * @param a (el primer factor per a multiplicar)
-	 * @param b (el segon factor per a multiplicar)
-	 * @return (retorna la multipliació del primer element per el segon element)
+	 * @param a el primer factor per a multiplicar
+	 * @param b el segon factor per a multiplicar
+	 * @return resultat la multipliació del primer element per el segon element
 	 */
 
 	public int multiplica(int a, int b) {
@@ -55,10 +54,10 @@ public class Calculadora {
 	/**
 	 * Fa una divisió entre dos numeros pasats com a parametres
 	 * 
-	 * @param a (el divident per a dividir)
-	 * @param b (el divisor per a dividir)
-	 * @return (retorna el quocient del divident entre el divisor)
-	 * @throws ArithmeticException (quan es divideix un numero entre 0)
+	 * @param a el divident per a dividir
+	 * @param b el divisor per a dividir
+	 * @return retorna el quocient del divident entre el divisor
+	 * @throws ArithmeticException quan es divideix un numero entre 0
 	 */
 
 	public int diveix(int a, int b) {
@@ -68,9 +67,9 @@ public class Calculadora {
 	/**
 	 * Eleva la un numero a un nombre de voltes
 	 * 
-	 * @param potencia (numero al qual nem a elevar)
-	 * @param exponent (voltes que volem elevar la potencia)
-	 * @return (retorna la potencia multiplicada per si mateixa el numero de voltes pasades com exponent)
+	 * @param potencia numero al qual nem a elevar
+	 * @param exponent voltes que volem elevar la potencia
+	 * @return la potencia multiplicada per si mateixa el numero de voltes pasades com exponent
 	 */
 
 	public int elevar(int potencia, int exponent) {
@@ -88,8 +87,8 @@ public class Calculadora {
 	/**
 	 * Aquesta funció ens diu si un numero pasat com a parametre es parell
 	 * 
-	 * @param numero (numero el qual volem comprovar si es parell)
-	 * @return (retorna true si es parell y false si es senar)
+	 * @param numero numero el qual volem comprovar si es parell
+	 * @return retorna true si es parell y false si es senar
 	 */
 
 	public boolean isParell(int numero) {
@@ -109,8 +108,8 @@ public class Calculadora {
 	/**
 	 * Divideix el numero introduït per dos fins que aquest done 0
 	 * 
-	 * @param numeroADividir (el numero que volem que es dividisca per dos)
-	 * @return (retorna el resultat en format de string del resultats del numero introduït)
+	 * @param numeroADividir el numero que volem que es dividisca per dos
+	 * @return retorna el resultat en format de string del resultats del numero introduït
 	 */
 	
 	public String divisorPerDos(int numeroADividir){

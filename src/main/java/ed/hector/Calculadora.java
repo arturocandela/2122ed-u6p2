@@ -5,9 +5,9 @@ package ed.hector;
  * Esta clase permite realizar un total de cuatro operaciones distintas. Las cuales son:
  * Suma, resta, multiplicacion y division
  * </p>
- * @author Hector Valls
- * @version 2.5 (version actual)
- * @since 1.9 (primera version creada el 19 de junio de 2019)
+ * @author Hector Valls Mira
+ * @version 2.5
+ * @since 1.9, 19 de junio de 2019)
  */
 public class Calculadora {
 	
@@ -44,7 +44,7 @@ public class Calculadora {
 	
 	
 	/**
-	 * Metodo que divide dos valores recibidos como parametro
+	 * Método que divide dos valores recibidos como parametro
 	 * @param a Primer valor de la division
 	 * @param b Segundo valor de la division
 	 * @return Resultado de dicha division
@@ -55,10 +55,10 @@ public class Calculadora {
 	}
 	
 	/**
-	 * Metodo que devuelve un numero elevado n numero de veces 
+	 * Método que devuelve un numero elevado n numero de veces 
 	 * @param a numero a elevar
 	 * @param n numero de veces a elevar
-	 * @return t (resultado de la elevacion)
+	 * @return resultado del cálculo de la potencia
 	 */
 	public int oper1 (int a, int n) {
 		int t = 1;
@@ -68,11 +68,10 @@ public class Calculadora {
 		return t;
 	}
 	
-	
 	/**
 	 * Dice si un numero en par
 	 * @param a numero a comprobar
-	 * @return Resultado de la comprobacion
+	 * @return Resultado de la comprobación
 	 */
 	public boolean esPar ( int a ){
 	    boolean r;
@@ -92,7 +91,7 @@ public class Calculadora {
 	 * <p>
 	 * Divide un numero entre dos, y concatena los restos en una String
 	 * @param a numero con el que se trabajara
-	 * @return r String de restos
+	 * @return String de restos
 	 */
 	public String obtenerStringRestos(int a){
 

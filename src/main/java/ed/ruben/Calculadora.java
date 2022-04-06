@@ -55,9 +55,9 @@ public class Calculadora {
 	 * @param a (int) Valor numerico del primer operando (a) para la operación a / b
 	 * @param b (int) Valor numerico del segundo operando (b) para la operación a / b
 	 * @return (int) El resultado de la operación a / b
-	 * @throws java.lang.ArithmeticException cuando intentas dividir 0/0
+	 * @throws java.lang.ArithmeticException Si el segundo operando es 0
+	 *
 	 */
-	
 	public int diveix(int a, int b) {
 		return a/b;
 	}

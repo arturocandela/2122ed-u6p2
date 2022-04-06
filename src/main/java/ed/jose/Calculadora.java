@@ -6,7 +6,7 @@ package ed.jose;
  * Esta clase parte de los requisitos de la actividad 2 de la práctica 2. En esta clase vemos diferentes operaciones que puede realizar una calculadora, nosotros le pasaremos los operandos como parametros y le diremos que operación queremos realizar. 
  * @author Jose Soriano Castro
  * @version 2.5
- * @version disponible desde la 1.9
+ * @since 1.9, Junio de 2019
  *
  */
 public class Calculadora {
@@ -46,7 +46,8 @@ public class Calculadora {
 	 * @param a Operando 1
 	 * @param b Operando 2
 	 * @return el resultado de la division de los parametros
-	 * @exception si divides por 0
+	 * @exception ArithmeticException en caso de que el segundo parametro sea 0
+	 *
 	 */
 	public int diveix(int a, int b) {
 		return a/b;
@@ -90,8 +91,9 @@ public class Calculadora {
 	}
 	
 	/**
-	 * Realiza divisiones hasta que el numero sea 0
-	 * @param a numero a dividir
+	 * Realiza divisiones hasta que el numero sea 0, para obtener la representación binaria del número
+	 * 
+	 * @param a numero a convertir
 	 * @return el resultado de todas las divisiones
 	 */
 	public String dividirHastaCero(int a){

@@ -2,13 +2,13 @@ package ed.kessvan;
 
 /**
  * Calculadora de càlculs aritmètics
- * 
+ * <p>
  * Aquesta clase permet calcular operacions aritmètiques
  * (suma, resta, multiplicació, divisió) amb dues nombres enters.
  * 
  * @author Kessvan Cedeño
  * @version 2.5
- * @since 1.9 Juny 2019
+ * @since 1.9, Juny 2019
  * 
  */
 public class Calculadora {

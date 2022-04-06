@@ -1,55 +1,60 @@
 package ed.antoni;
 /**
- * La clase Calculadora devuelve el resultado al sumar,restar,
- * multiplicar o dividir 2 numeros enteros
+ * La clase realiza las operaciones propias de una calculadora
+ * 
+ * Mediante los métodos, devuelve sumar,restar,multiplicar, o dividir 2 numeros enteros ... falta información...
+ * 
+ * En la misma descripción, indicar que se since, se ha de colocar en el formato que se detalla.
+ * 
  * @author Antoni Medina Sanjuan
  * @version 2.5
- * Disponible desde la versión 1.9, junio de 2019
+ * @since 1.9, junio de 2019
  */
 public class Calculadora {
 	
 	/**
+	 * Falta la descripción del método y la excepción colocada es errónea.
 	 * 
 	 * @param a numero entero 1
 	 * @param b numero entero 2
-	 * @return el total de la suma de los dos numeros enteros
-	 * @exception java.lang.ArithmeticException Error, debe de ser entero
+	 * @return el total de la suma de los dos números enteros
 	 */
 	public int suma(int a, int b) {
 		return a + b;
 	}
 	/**
+	 * Falta la descripción del método
 	 * 
 	 * @param a numero entero 1
 	 * @param b numero entero 2
-	 * @return el total de la resta de los dos numeros enteros
-	 * @exception java.lang.ArithmeticException Error, debe de ser entero
-	 */
+	 * @return el total de la resta de los dos numeros enteros	 */
 	public int resta(int a, int b) {
 		return a - b;
 	}
 	/**
+	 * Falta la descripción del método
 	 * 
 	 * @param a numero entero 1
 	 * @param b numero entero 2
 	 * @return el total de la multiplicación de los dos numeros enteros
-	 * @exception java.lang.ArithmeticException Error, debe de ser entero
 	 */
 	public int multiplica(int a, int b){
 		return a*b;
 	}
 	/**
+	 * Falta la descripción
 	 * 
 	 * @param a numero entero 1
 	 * @param b numero entero 2
 	 * @return el total de la división de los dos numeros enteros
-	 * @exception java.lang.ArithmeticException Error, debe de ser entero y no debe de ser una division entre 0
+	 * @exception ArithmeticException en el caso de que	b sea 0
 	 */
 	public int diveix(int a, int b) {
 		return a/b;
 	}
 	
-	/**
+	/** 
+	 * Falta la descripción
 	 * 
 	 * @param base de la potencia, se multiplica por sí mismo tantas veces como indique el otro numero llamado exponente 
 	 * @param exponente es el numero que indica las veces que la base se multiplicará por sí mismo
@@ -68,6 +73,7 @@ public class Calculadora {
 	}
 	
 	/**
+	 * Falta la descripción
 	 * 
 	 * @param numero que comprobaremos si es par o impar
 	 * @return true si es par, false si es impar
@@ -86,6 +92,7 @@ public class Calculadora {
 
 	}
 	/**
+	 * Falta la descripción
 	 * 
 	 * @param entero al que convertiremos en numero binario
 	 * @return el entero pasado a binario

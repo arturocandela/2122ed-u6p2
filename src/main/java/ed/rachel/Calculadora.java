@@ -1,23 +1,23 @@
 package ed.rachel;
 
 /**
- * Clase Calculadora. Se utilizan metodos para realizar operaciones.
- * 
+ * Clase para la realización de operaciones matemáticas
+ * <p>
  * Mediante dos atricutos de tipo entero se realizan cuatro tipos de operaciones, suma, resta, multiplicacion y division.
- * 
  * 
  * @author Rachel Samaniego Gisbert
  * @version 2.5
- * @since version 1.9 of june 2019
+ * @since 1.9, of june 2019
  * 
  * */
 
 public class Calculadora {
 	/**
-	 * Se suma dos enteros
-	 * @param a, entero
-	 * @param b, entero
-	 * @return suma de a y b, entero
+	 * Suma dos números enteros pasados como argumentos
+	 * 
+	 * @param a primer entero
+	 * @param b segundo entero
+	 * @return suma entera de a y b
 	 */
 	public int suma(int a, int b) {
 		return a + b;
@@ -45,7 +45,7 @@ public class Calculadora {
 	 * @param a, entero
 	 * @param b, entero
 	 * @return division de a y b, entero
-	 * @exception ArithmeticException Cuando se intenta dividir entre 0
+	 * @throws ArithmeticException Cuando se intenta dividir entre 0
 	 */
 	public int diveix(int a, int b) {
 		return a/b;

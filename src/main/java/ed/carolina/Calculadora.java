@@ -11,8 +11,8 @@ package ed.carolina;
  * </p>
  * 
  * @author Carolina Torregrosa Nadal
- * @version 2.5 (Versión actual de la clase)
- * @since 1.9 Junio 2019 (Versión desde la cual está disponible esta clase)
+ * @version 2.5
+ * @since 1.9, Junio 2019
  */
 public class Calculadora {
 	
@@ -88,11 +88,13 @@ public class Calculadora {
 	}
 
 	/**
-	 * Indica si un número entero es par o no, devolviendo un valor boolean que será true si el resto de dividir dicho número
+	 * Indica si un número entero es par o no
+	 * <p>
+	 * Devolviendo un valor boolean que será true si el resto de dividir dicho número
 	 * entre 2 es 0 y por lo tanto es par, y false si el resultado es distinto a 0 y por lo tanto es impar.
 	 * 
 	 * @param a El número entero a analizar si es par o no.
-	 * @return True si es par, False si es impar.
+	 * @return true si es par, false si es impar.
 	 */
 	public boolean esPar ( int a ){
 
